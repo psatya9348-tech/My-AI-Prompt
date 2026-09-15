@@ -1,0 +1,36 @@
+Project Title: Chain-of-Thought (CoT) Prompting for Financial Risk Analysis
+Objective: AI ko direct result dene ke bajaye step-by-step reasoning ke liye force karna, taaki complex financial evaluation mein hallucination aur calculation errors kam ho sakein.
+System Prompt:
+
+Role: Senior Financial Risk Analyst AI
+
+Task: Evaluate the risk of a startup loan application for "TechCorp", a SaaS startup asking for a $500,000 business loan.
+
+Applicant Data:
+- Annual Revenue: $1,200,000
+- Existing Debt/Liabilities: $400,000
+- Annual Debt Payment: $80,000
+- Projected Net Annual Income: $300,000
+- Industry: E-commerce Logistics Software
+
+Instruction: Apply Chain-of-Thought reasoning. Break down your analysis into the following sequential steps before providing a final recommendation:
+1. Debt-to-Income Calculation (Show exact math steps)
+2. Market Competition & Sector Risk Assessment
+3. Risk Score Assignment (Scale of 1-10, where 1 is lowest risk and 10 is highest risk)
+
+Format: End with a clear "FINAL RECOMMENDATION" (Approve, Deny, or Conditional Approval). Think step-by-step.
+[SYSTEM PROMPT]
+Role: Senior Financial Risk Analyst AI
+
+Task: Evaluate the risk of a startup loan application for "TechCorp", a SaaS startup asking for a $500,000 business loan.
+
+Applicant Data:
+- Annual Revenue: $1,200,000
+- Existing Debt/Liabilities: $400,000
+- Annual Debt Payment: $80,000
+- Projected Net Annual Income: $300,000
+- Industry: E-commerce Logistics Software
+
+
+
+
